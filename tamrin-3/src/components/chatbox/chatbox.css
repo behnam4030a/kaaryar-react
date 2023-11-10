@@ -1,0 +1,13 @@
+.chatbox {
+  width: 60%;
+  height: 500px;
+  background-color: #e0e9e9;
+  border-radius: 4px;
+  padding: 5px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .chatbox {
+    width: 100%;
+  }
+}

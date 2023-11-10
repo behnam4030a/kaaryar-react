@@ -1,0 +1,20 @@
+.Actions {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  align-items: center;
+}
+.Actions > div {
+  width: 100%;
+  padding: 5px;
+}
+.Actions input {
+  width: 98.5%;
+  padding: 6px;
+}
+.Actions button {
+  padding: 6px;
+  margin-left: 5px;
+}
