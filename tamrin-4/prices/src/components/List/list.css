@@ -1,0 +1,15 @@
+.list {
+  height: 70%;
+  overflow-y: scroll;
+  width: 100%;
+  display: flex;
+}
+.list__buy {
+  width: 50%;
+  padding-right: 70px;
+}
+.list__sell {
+  width: 50%;
+  direction: ltr;
+  padding-left: 70px;
+}
