@@ -1,0 +1,25 @@
+.answer {
+  width: 90%;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 20px;
+  min-height: 70px;
+}
+.answer__text {
+  line-height: 30px;
+}
+.answer__title {
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.answer__title a,
+.answer__title span {
+  color: green;
+  text-decoration: none;
+}
+.answer__title p {
+  color: #bebcbc;
+}
