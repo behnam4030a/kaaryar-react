@@ -1,0 +1,154 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.App__buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.App__buttons button,
+.App__buttons a {
+  display: block;
+  margin: 10px;
+}
+.primary,
+.secondary,
+.success,
+.danger,
+.warning,
+.info,
+.dark {
+  background-color: #696cff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+}
+.secondary {
+  background-color: #8592a3;
+}
+.success {
+  background-color: #71dd37;
+}
+.danger {
+  background-color: #ff3e1d;
+}
+.warning {
+  background-color: #ffab00;
+}
+.info {
+  background-color: #03c3ec;
+}
+.dark {
+  background-color: #233446;
+}
+.small {
+  font-size: 0.875rem;
+  padding: 8px;
+}
+.medium {
+  font-size: 1rem;
+}
+.larg {
+  font-size: 1.25rem;
+}
+
+button[variant='outlined'].primary,
+button[variant='outlined'].secondary,
+button[variant='outlined'].success,
+button[variant='outlined'].danger,
+button[variant='outlined'].warning,
+button[variant='outlined'].info,
+button[variant='outlined'].dark {
+  background-color: transparent !important;
+  color: #696cff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 1px solid #696cff;
+  font-size: 1rem;
+}
+button[variant='outlined'].success {
+  color: #71dd37;
+  border: 1px solid #71dd37;
+}
+button[variant='outlined'].secondary {
+  color: #8592a3;
+  border: 1px solid #8592a3;
+}
+button[variant='outlined'].danger {
+  color: #ff3e1d;
+  border: 1px solid #ff3e1d;
+}
+button[variant='outlined'].warning {
+  color: #ffab00;
+  border: 1px solid #ffab00;
+}
+button[variant='outlined'].info {
+  color: #03c3ec;
+  border: 1px solid #03c3ec;
+}
+button[variant='outlined'].dark {
+  color: #233446;
+  border: 1px solid #233446;
+}
+button[disabled].primary {
+  cursor: default;
+  background-color: #696cff6b;
+}
+button[disabled].success {
+  cursor: default;
+  background-color: #71dd3775;
+}
+button[disabled].danger {
+  cursor: default;
+  background-color: #ff3f1d69;
+}
+button[disabled].warning {
+  cursor: default;
+  background-color: #ffaa006c;
+}
+button[disabled].info {
+  cursor: default;
+  background-color: #03c1ec69;
+}
+button[disabled].dark {
+  cursor: default;
+  background-color: #23344665;
+}
+button[variant='outlined'].primary[disabled] {
+  cursor: default;
+  color: #696cff6b;
+  border: 1px solid #696cff6b;
+}
+button[variant='outlined'].success[disabled] {
+  cursor: default;
+  color: #71dd3779;
+  border: 1px solid #71dd3779;
+}
+button[variant='outlined'].danger[disabled] {
+  cursor: default;
+  color: #ff3f1d69;
+  border: 1px solid #ff3f1d69;
+}
+button[variant='outlined'].warning[disabled] {
+  cursor: default;
+  color: #ffaa006c;
+  border: 1px solid #ffaa006c;
+}
+button[variant='outlined'].info[disabled] {
+  cursor: default;
+  color: #03c1ec69;
+  border: 1px solid #03c1ec69;
+}
+button[variant='outlined'].dark[disabled] {
+  cursor: default;
+  color: #23344665;
+  border: 1px solid #23344665;
+}
